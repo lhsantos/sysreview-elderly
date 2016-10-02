@@ -1,0 +1,84 @@
+Base:
+(elder OR elderly OR "senior citizen" OR "senior people" OR "older people" OR "older adult")
+AND (game OR ubigame OR gamification OR pervasive OR ubiquitous OR "mixed reality" OR ambient OR augmented OR virtual OR mobile OR activity OR social OR socialize)
+AND (health-care OR healthcare OR wellbeing OR well-being OR wellness OR care)
+
+IEEE:
+(elder* OR senior OR "older people" OR "older adult") AND (pervasive OR ubiquitous OR ambient OR social*) AND (health* OR well* OR *care)
+(elder* OR senior OR "older people" OR "older adult")
+(elder* OR senior OR "older people" OR "older adult") AND (*game* OR gamif*)
+(elder* OR senior OR "older people" OR "older adult") AND (*game* OR gamif* OR "social media" or "social networking")
+(elder* OR senior OR "older people" OR "older adult") AND (*gam* OR "social media" or "social networking")
+(elder* OR senior OR "older people" OR "older adult") AND (*gam* OR social*)
+(elder* OR senior OR "older people" OR "older adult") AND (*gam* OR social* OR virtual OR *reality)
+(elder* OR senior OR "older people" OR "older adult") AND (*gam* OR social* OR virtual OR *reality) AND (pervasive OR ubiquitous OR ambient)
+(elder* OR senior OR "older people" OR "older adult") AND (social* OR health* OR well* OR *care)
+(elder* OR senior OR "older people" OR "older adult") AND (social* OR health* OR well* OR *care) AND (*gam* OR reality OR pervasive OR ubiquitous OR ambient)
+(elder* OR senior OR "older people" OR "older adult") AND (social* OR health* OR well* OR *care) AND (*gam* OR pervasive OR ubiquitous OR ambient)
+(elder* OR senior OR "older people" OR "older adult") AND (social* OR health* OR *care) AND (*gam* OR pervasive OR ubiquitous OR ambient)
+(elder* OR senior OR "older people" OR "older adult") AND (social* OR health*) AND (*gam* OR pervasive OR ubiquitous OR ambient)
+(elder* OR senior OR "older people" OR "older adult" OR ageing) AND (social* OR health*) AND (*gam* OR pervasive OR ubiquitous OR ambient)
+(elder* OR senior OR "older people" OR "older adult" OR ageing) AND (social* OR health*) AND (*gam* OR pervasive OR ubiquitous OR ambient) AND cognitive
+
+ACM:
+(elder* OR senior OR "older people" OR "older adult" OR ageing) AND (social* OR health*) AND (*gam* OR pervasive OR ubiquitous OR ambient)
+(elder* OR senior OR "older people" OR "older adult" OR ageing) AND (social* OR health*) AND (*gam* OR pervasive OR ubiquitous OR ambient) AND cognitive
+
+PubMed:
+(elder*[Title/Abstract] OR senior[Title/Abstract] OR "older people"[Title/Abstract] OR "older adult"[Title/Abstract] OR ageing[Title/Abstract]) AND (social*[Title/Abstract] OR health[Title/Abstract] OR healthcare[Title/Abstract] OR health-care[Title/Abstract]) AND (game[Title/Abstract] OR gamification[Title/Abstract] OR pervasive[Title/Abstract] OR ubiquitous[Title/Abstract] OR ambient[Title/Abstract])
+(elder*[Title/Abstract] OR senior[Title/Abstract] OR "older people"[Title/Abstract] OR "older adult"[Title/Abstract] OR ageing[Title/Abstract]) AND (social*[Title/Abstract] OR health[Title/Abstract] OR healthcare[Title/Abstract] OR health-care[Title/Abstract]) AND (game[Title/Abstract] OR gamification[Title/Abstract] OR pervasive[Title/Abstract] OR ubiquitous[Title/Abstract] OR ambient[Title/Abstract])
+
+ScienceDirect:
+TITLE-ABSTR-KEY(elder* OR {senior} OR {older people} OR {older adult}) AND TITLE-ABSTR-KEY(social* OR health*) AND TITLE-ABSTR-KEY(*gam* OR {pervasive} OR {ubiquitous} OR {ambient})
+TITLE-ABSTR-KEY(elder* OR {senior} OR {older people} OR {older adult} OR {ageing}) AND TITLE-ABSTR-KEY(social* OR health*) AND TITLE-ABSTR-KEY(*gam* OR {pervasive} OR {ubiquitous} OR {ambient}) AND TITLE-ABSTR-KEY({cognitive})
+
+
+SpringerLink:
+
+
+
+game OR ubigame OR gamefication OR pervasive OR ubiquitous OR "mixed reality" OR ambient OR augmented OR virtual OR social OR mobile
+health care well
+
+(elderly OR senior OR elder OR older OR "old people") AND (game OR ubigame OR gamefication OR pervasive OR ubiquitous OR mixed OR ambient OR augmented OR virtual OR social)
+(elderly OR senior OR elder OR older) AND (game OR ubigame OR gamefication) AND (pervasive OR ubiquitous OR mixed OR ambient OR augmented OR virtual OR social)
+
+cognitive training
+engagement
+long-term
+
+
+socialize
+isolation
+social isolation
+social exclusion
+social interaction
+aging in place
+home care
+health monitoring
+health care
+healthcare
+well-being
+wellness
+behavioral patterns
+emotional ties
+activity recognition
+
+elder
+older
+elderly
+senior
+older people
+ambient intelligence
+technology
+mobile
+ubiquitous
+ambient information systems
+artificial intelligence
+pervasive computing
+social networking
+social network
+social media
+
+
+("Abstract":"socialize" OR "isolation" OR "social isolation" OR "social exclusion" OR "social interaction" OR "aging in place" OR "home care" OR "health monitoring" OR "health care" OR "healthcare" OR "wellbeing" OR "wellness" OR "behavioral patterns" OR "emotional ties" OR "activity recognition") AND ("Abstract":"elder" OR "older" OR "elderly" OR "senior" OR "older people") AND ("Abstract":"ambient intelligence" OR "technology" OR "mobile" OR "ubiquitous" OR "ambient information systems" OR "artificial intelligence" OR "pervasive computing" OR "social networking" OR "social network" OR "social media")
